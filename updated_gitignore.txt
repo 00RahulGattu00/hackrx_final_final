@@ -1,0 +1,156 @@
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# CRITICAL: Environment & Secrets
+# ===========================================
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+api_keys.txt
+secrets.json
+config.json
+
+# ===========================================
+# Temporary & Cache Files
+# ===========================================
+*.tmp
+*.temp
+temp/
+tmp/
+.cache/
+.pytest_cache/
+search_indexes/
+*.index
+*.embeddings
+*.metadata
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+logs/
+log/
+
+# ===========================================
+# IDE & Editor Files
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Testing
+# ===========================================
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===========================================
+# Documentation
+# ===========================================
+docs/_build/
+.readthedocs.yml
+
+# ===========================================
+# Virtual Environments
+# ===========================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# ===========================================
+# Database Files
+# ===========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# Model & Data Files
+# ===========================================
+models/
+data/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# ===========================================
+# System Files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# Backup Files
+# ===========================================
+*.bak
+*.backup
+*~
+
+# ===========================================
+# Docker
+# ===========================================
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# ===========================================
+# Deployment
+# ===========================================
+.vercel
+.netlify
+.aws-sam/
+
+# ===========================================
+# Project Specific
+# ===========================================
+uploads/
+downloads/
+output/
+results/
